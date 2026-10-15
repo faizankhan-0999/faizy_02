@@ -55,4 +55,4 @@ Troubleshooting
 - Import error: Activate your virtual environment and run pip install -r requirements.txt.
 - Deployment failure: Review the app logs in Streamlit Community Cloud.
 Privacy and responsible use
-Resume text is sent to Google Gemini to produce the review. Do not upload personal information unless you are comfortable with that processing. The demo does not intentionally store uploaded resumes in a database. The result is advisory; users should verify all suggestions and never add skills or achievements
+Resume text is sent to Google Gemini to produce the review. Do not upload personal information unless you are comfortable with that processing. The demo does not intentionally store uploaded resumes in a database. The result is advisory; users should verify all suggestions and never add skills or achievements they do not actually have.
