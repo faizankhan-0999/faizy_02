@@ -58,6 +58,12 @@ The default is `gemini-flash-latest`. You can change it in the sidebar, or set t
 
 5. Click **Deploy**.
 
+## Troubleshooting
+
+- **ImportError / ModuleNotFoundError on Streamlit Cloud:** make sure `requirements.txt` (exactly that name) sits in the repo root next to `app.py`, then open **Manage app → Reboot app**. Check the logs in **Manage app** to confirm the packages installed.
+- **"Gemini rejected the request":** the API key is wrong or missing from **Secrets**. Secrets must be written as `GEMINI_API_KEY = "your-key"`.
+- **Model not found:** change the model name in the sidebar (see the Gemini models page above).
+
 ## Privacy
 
 Resume text is sent to the Gemini API for analysis. The app does not store resumes or reports on a server.
