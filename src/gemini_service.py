@@ -110,7 +110,7 @@ JOB DESCRIPTION:
 
     try:
         response = client.models.generate_content(
-            model="gemini-3.8-flash",
+            model="gemini-3.8-flash",  # <--- Change this line from gemini-2.5-flash to gemini-3.8-flash
             contents=user_prompt,
             config=config,
         )
