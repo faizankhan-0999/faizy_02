@@ -1,0 +1,3 @@
+"""
+ResumeMatch AI core package.
+"""
