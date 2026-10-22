@@ -108,9 +108,9 @@ JOB DESCRIPTION:
         response_schema=ANALYSIS_SCHEMA,
     )
 
-    try:
+   try:
         response = client.models.generate_content(
-            model="gemini-3.8-flash",  # <--- Change this line from gemini-2.5-flash to gemini-3.8-flash
+            model="gemini-flash-latest",  # Automatically uses the latest stable flash model alias
             contents=user_prompt,
             config=config,
         )
